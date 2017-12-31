@@ -69,8 +69,6 @@ NFT코인은 현대의 가장 큰 사회적, 경제적 고민거리를 해결할
 1.	고성능 VM
 
 
-<a href="https://nofake.today/architecture.jpg" target="_blank" rel="noopener"><img title="architecture" src="https://nofake.today/architecture.jpg" alt="architecture" /></a>
-
 nfChain is an Ethereum-based distributed ledger protocol with transaction/contract privacy and new consensus mechanisms.
 
 nfChain is a fork of [go-ethereum](https://github.com/ethereum/go-ethereum) and is updated in line with go-ethereum releases.
