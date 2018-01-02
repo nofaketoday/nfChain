@@ -1,6 +1,6 @@
 # NoFakeChain (nfChain), the next generation of Blockchain for e-commerce.
 
-A new protocol that tackles today’s biggest social and economic problems and which provides:
+A new protocol that tackles today’s biggest social and economic problems. It provides:
 1.	Anti-counterfeiting support: 20% of on-line purchases are fake, 10% of global trade is in bogus goods and services. 
 1.	Product tracing: Gives back control to the stake holders by linking the actual real world object with Blockchain objects
 1.	Supply chain transparency: Removes information silos and builds open and readily accessible platforms
@@ -26,7 +26,7 @@ Technical standards:
 
 技术标准
 1.	混合链以及交易隧道
-2.  相关性证明共识算法(Proof of Relevance algorithms)
+2. 相关性证明共识算法(Proof of Relevance algorithms)
 3.	支持移动设备的挖矿算法(ASIC resistant and mobile friendly mining)
 4.	友好且安全的智能合约语言
 5.	高效虚拟机
@@ -77,13 +77,12 @@ Key enhancements over go-ethereum:
 
   * __Privacy__ - nfChain supports private transactions via a Transaction Tunnel, a peer-to-peer encrypted message tunnel for directed transfer of private data to network counterparties
   * __Alternative Consensus Mechanisms__ - Instead of using POW/POS as a consensus algo, nfChain offers multiple consensus options that are appropriate for consortium chains:
-    * __Prove of Relevance Consensus__ - a consensus model for highly performance, scalability, transaction finality, and on-demand block creation
+    * __Prove of Relevance Consensus__ - a consensus model based business relevance, which provides higly scalability, and fast block creation
     * __Raft-based Consensus__ - a consensus model for faster blocktimes, transaction finality, and on-demand block creation
     * __Applied BFT__ - a PBFT-inspired consensus algorithm.
   * __Peer Permissioning__ - node/peer permissioning using smart contracts, ensuring only known parties can join the network
   * __Higher Performance__ - nfChain offers significantly higher performance than public geth
 
-Note: The nfChain consensus algorithm is not yet supported by this release.
 
 ## Architecture
 
