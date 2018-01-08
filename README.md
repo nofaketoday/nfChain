@@ -1,4 +1,4 @@
-# NoFakeChain (nfChain), the next generation of Blockchain for e-commerce.
+# NoFakeChain (nfChain), the decidated Blockchain for e-commerce.
 
 A new protocol that tackles today’s biggest social and economic problems. It provides:
 1.	Anti-counterfeiting support: 20% of on-line purchases are fake, 10% of global trade is in bogus goods and services. 
@@ -10,9 +10,7 @@ A new protocol that tackles today’s biggest social and economic problems. It p
 Technical standards:
 1.	Mixed Chain Technology and Transaction Tunnelling
 1.	Proof of Relevance algorithms
-1.	ASIC resistant and mobile friendly mining
 1.	Developer friendly and safe, smart contract programming language
-1.	High performing VM
 
 # NoFakeChain (nfChain), 新一代电商区块链
 
@@ -26,10 +24,8 @@ Technical standards:
 
 技术标准
 1.	混合链以及交易隧道
-2. 相关性证明共识算法(Proof of Relevance algorithms)
-3.	支持移动设备的挖矿算法(ASIC resistant and mobile friendly mining)
-4.	友好且安全的智能合约语言
-5.	高效虚拟机
+1. 相关性证明共识算法(Proof of Relevance algorithms)
+1.	友好且安全的智能合约语言
 
 
 # NoFakeChain (nfChain), 次世代の電子商用プラットフォーム用ブロックチェーン
@@ -43,10 +39,8 @@ Technical standards:
 
 高い基準
 1.	混合チェーン技術とトランザクショントンネル
-1.	関連性证明共存算法(Proof of Relevance algorithms)
 1.	ASIC耐性とモバイルフレンドリーなマイニング
 1.	開発者フレンドリーで安全なスマート契約プログラミング言語
-1.	高性能仮想マシン
 
 # NoFakeChain (nfChain), 노 페이크 투데이(No Fake Today),　
 더 이상 가짜짝퉁은 존재하지 않는다.
@@ -64,24 +58,22 @@ NFT코인은 현대의 가장 큰 사회적, 경제적 고민거리를 해결할
 
 1.	각기 다른 블론체인 기술의 혼합 및 트랜잭션 터널
 1.	관련성 일치 알고리즘 증명
-1.	ASIC 내성 및 모바일 친화적인 채광
 1.	개발자친화적이고 안전한 스마트 계약 프로그래밍 언어
-1.	고성능 VM
 
 
 nfChain is an Ethereum-based distributed ledger protocol with transaction/contract privacy and new consensus mechanisms.
 
 nfChain is a fork of [go-ethereum](https://github.com/ethereum/go-ethereum) and is updated in line with go-ethereum releases.
 
-Key enhancements over go-ethereum:
+Key improvement over ethereum:
 
   * __Privacy__ - nfChain supports private transactions via a Transaction Tunnel, a peer-to-peer encrypted message tunnel for directed transfer of private data to network counterparties
   * __Alternative Consensus Mechanisms__ - Instead of using POW/POS as a consensus algo, nfChain offers multiple consensus options that are appropriate for consortium chains:
     * __Prove of Relevance Consensus__ - a consensus model based business relevance, which provides higly scalability, and fast block creation
     * __Raft-based Consensus__ - a consensus model for faster blocktimes, transaction finality, and on-demand block creation
-    * __Applied BFT__ - a PBFT-inspired consensus algorithm.
+    * __Applied BFT__ - a the Practical Byzantine Fault Tolerance consensus algorithm.
   * __Peer Permissioning__ - node/peer permissioning using smart contracts, ensuring only known parties can join the network
-  * __Higher Performance__ - nfChain offers significantly higher performance than public geth
+  * __Higher Performance__ - nfChain offers significantly higher performance than public ethereum mainnet
 
 
 ## Architecture
@@ -90,8 +82,9 @@ Key enhancements over go-ethereum:
 The above diagram is a high-level overview of the privacy architecture used by nfChain. For more in-depth discussion of the components, refer to the [wiki](https://github.com/) pages.
 
 ## Quickstart
+To start or join nfChain consortium network, you can use [VirtualBox](https://www.virtualbox.org/wiki/Downloads) and [Vagrant](https://www.vagrantup.com/downloads.html).
 
-The quickest way to get started with nfChain is using [VirtualBox](https://www.virtualbox.org/wiki/Downloads) and [Vagrant](https://www.vagrantup.com/downloads.html):
+The commands and output:
 
 ```sh
 git clone https://github.com/nofaketoday/nfChain
