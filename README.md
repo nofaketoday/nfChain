@@ -215,9 +215,6 @@ The details can be found here [Features](https://nofake.today).
 ## Supply chain transparency 
 The details can be found here [Features](https://nofake.today).
 
-## Product tracing 
-The details can be found here [Features](https://nofake.today).
-
 ## Proof of relevance  
 The details can be found here [Features](https://nofake.today).
 
